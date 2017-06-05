@@ -1,0 +1,5 @@
+[22-Apr-2016 02:43:28 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/lppmuajy/public_html/sikonsorsium/application/libraries/PHPExcel/PHPExcel/Writer/Excel2007.php on line 227
+[22-Apr-2016 02:44:02 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/lppmuajy/public_html/sikonsorsium/application/libraries/PHPExcel/PHPExcel/Writer/Excel2007.php on line 227
+[22-Apr-2016 03:01:23 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 93 bytes) in /home/lppmuajy/public_html/sikonsorsium/system/database/drivers/mysql/mysql_result.php on line 147
+[22-Apr-2016 03:01:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 87 bytes) in /home/lppmuajy/public_html/sikonsorsium/system/database/drivers/mysql/mysql_result.php on line 147
+[25-Apr-2016 17:03:16 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 82 bytes) in /home/lppmuajy/public_html/sikonsorsium/system/database/drivers/mysql/mysql_result.php on line 147

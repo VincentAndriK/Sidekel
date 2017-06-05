@@ -1,0 +1,41 @@
+setelah selesai melakukan installasi XAMPP
+
+buka file php.ini pada lokasi C:\xampp\php\
+
+cari tulisan 
+
+upload_max_filesize=2M =>> ubah menjadi upload_max_filesize=10M
+post_max_size=8M  =>> ubah menjadi post_max_size=20M 
+
+
+lalu restart (stop lalu start kembali) service apache pada XAMPP control panel
+
+buat database dengan nama sidekel_(nama desa)
+
+contoh : sidekel_jatimulyo, sidekel_pendoworejo, sidekel_giripurwo, sidekel_purwosari
+
+
+klik nama database tersebut pada sidebar sebelah kiri
+
+klik tombol import Import  -> klik browse -> pilih file sidekel.sql -> go
+
+
+
+copy folder sidekel ke C:\xampp\htdocs\
+
+
+buka file database.php pada C:\xampp\htdocs\sidekel\application\config
+
+
+cari tulisan $db['default']['database'] = 'sidekel_(nama desa)';
+
+ubah menjadi nama database yang telah anda buat sebelumnya
+
+contoh : 	$db['default']['database'] = 'sidekel_jatimulyo';
+
+		$db['default']['database'] = 'sidekel_pendoworejo';
+		$db['default']['database'] = 'sidekel_giripurwo';
+		$db['default']['database'] = 'sidekel_purwosari';	
+
+
+akses melalui browser (google chrome / mozilla firefox ) anda masing dengan alamat URL http://localhost/sidekel/ 

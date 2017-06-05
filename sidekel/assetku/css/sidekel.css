@@ -1,0 +1,23 @@
+body{
+  background-color: #f8f8f8;
+  font-family:tahoma,verdana,arial,sans-serif;
+  font-size:14px;
+}
+
+.panel-heading{background:rgba(245, 245, 245, 0.09);}
+.panel-footer{text-align:center;}
+
+
+
+.login-panel {
+    margin-top: 25%;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 3px solid rgb(102, 102, 102);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
